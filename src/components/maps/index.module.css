@@ -1,0 +1,20 @@
+.maps {
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 800px;
+    height: 354px;
+    opacity: .9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.address {
+    font-size: 18px;
+}
