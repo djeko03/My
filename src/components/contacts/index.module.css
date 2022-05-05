@@ -1,37 +1,47 @@
 .container {
     max-width: 1230px;
-    padding: 0 15px 15px 15px;
+    padding: 40px 15px 10px 15px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.git {
+
+.contact {
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-top: 15px;
+}
+.contact p {
+    margin-left: 10px;
+    font-weight: 700;
 }
 
-.git a {
+.contact:last-child {
+    margin-left: 40px;
+}
+
+.link {
     color: rgba(255, 255, 255, 0.5);
     margin-left: 10px;
     text-decoration: none;
     font-weight: 700;
 }
 
-.git a:hover {
+.link:hover {
     color: #bdbdbd;
     filter: drop-shadow(0 0 2px #00ade1);
 }
 
 .phone {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
 }
 
-.phone p {
-    color: rgba(255, 255, 255, 0.5);
-    margin-left: 10px;
-    font-weight: 700;
+.others {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.contact .whatsapp {
+    margin-left: 0;
 }
