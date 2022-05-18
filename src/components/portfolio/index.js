@@ -24,7 +24,7 @@ export const Portfolio = () => {
                         title='Шахматы'
                         image='/img/skills/chess.jpg'
                         description='
-                        Шахматы React/TypeScrips.
+                        Шахматы React/TypeScript.
                         Ссылка на GitHub (https://github.com/djeko03/chess)
                         '
                         link='https://chess-blue.vercel.app/'
