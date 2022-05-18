@@ -9,7 +9,7 @@ const MyMaps  = () => {
 
     useEffect(() => {
         ymaps
-            .load('https://api-maps.yandex.ru/2.1/?lang=en_US')
+            .load('https://api-maps.yandex.ru/2.1/?lang=ru_RU')
             .then((maps) => {
                 mapRef.current = new maps.Map(mapContainer.current, {
                     center: [59.879139, 30.318961],
@@ -27,8 +27,8 @@ const MyMaps  = () => {
 
     return (
         <div className={css.maps}>
-            <p className={css.name}>Address</p>
-            <p className={css.address}>m. Electrosila, Saint-Petersburg, Russia</p>
+            <p className={css.name}>Адрес</p>
+            <p className={css.address}>м. Электросила, Санкт-Петербург, Россия</p>
             <div ref={mapContainer} className={css.container}></div>
         </div>
     );

@@ -1,7 +1,7 @@
 
 
 .container {
-    max-width: 1230px;
+    max-width: 1000px;
     padding: 40px 15px 10px 15px;
     margin: 0 auto;
 }
@@ -15,7 +15,7 @@
 
 .myName {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 15px;
     margin-left: 40px;
 }
@@ -23,6 +23,19 @@
 .myInfo {
     font-size: 18px;
     line-height: 2em;
+}
+
+@media screen and (max-width: 530px){
+    .information {
+        flex-direction: column;
+    }
+    .myName {
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .myInfo {
+        text-align: center;
+    }
 }
 
 .myImage {
@@ -37,14 +50,21 @@
 }
 
 .about {
-    color: rgba(255, 255, 255, 0.5);
-    width: 50%;
-    font-size: 20px;
+    color: #2f343d;
+    padding: 15px;
+    font-size: 18px;
+    height: 305px;
+    overflow-y: auto;
     margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 .aboutTitle {
     margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .aboutText {
