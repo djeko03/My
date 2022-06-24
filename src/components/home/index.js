@@ -16,7 +16,7 @@ export const Home = () => {
                         </div>
                         <div className={css.myInfo}>
                             <p>Junior Frontend разработчик</p>
-                            <p>24 года, Санкт-Петербург, Россия</p>
+                            <p>25 лет, Санкт-Петербург, Россия</p>
                         </div>
                     </div>
                 </section>

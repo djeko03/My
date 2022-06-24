@@ -31,6 +31,16 @@ export const Portfolio = () => {
                     />
 
                     <Notebook
+                        title='Вёрстка React'
+                        image='/img/skills/react-maket.jpg'
+                        description='
+                        Вёрстка макета на React + несколько функций по фильтрации картинок и возможность их удаления.
+                        Ссылка на GitHub (https://github.com/djeko03/agency-portfolio)
+                        '
+                        link='https://agency-portfolio-nu.vercel.app/'
+                    />
+
+                    <Notebook
                         title='Телефонные номера'
                         image='/img/skills/phone-numbers.jpg'
                         description='
